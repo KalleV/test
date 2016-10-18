@@ -319,7 +319,7 @@ Nested example:
             {
                 "layout": "row",
                 "flex": 30,
-                "width":"300px"      
+                "width":"300px",      
                 "hide-sm":"true",     
                 "hide-xs":"true",
                 "panels": [
