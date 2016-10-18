@@ -1,4 +1,4 @@
-#Generic Dashboard List Settings Configuration Document:
+#Generic Dashboard List Settings Configuration:
 
 A dashboard is LabShare's way of displaying information to the user about data that is stored in a SharePoint list. 
 Follow these steps to create a LabShare dashboard:
