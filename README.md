@@ -119,14 +119,14 @@ Specifying request options:
 
 Specifying "apiParams":
 ```JSON
-"apiHost": "host:port",                                    /* The host where your API is found. */
-"apiPath": "path/:someValue/to/api/:view",                 /* This is the path to the specific view that you require. */
-"apiParams": {                                             /* The parameters your API will need to function correctly. */
+"apiHost": "host:port",                                    
+"apiPath": "path/:someValue/to/api/:view",                 
+"apiParams": {                                             
     "someValue": 5,
-    "listName": "<A SharePoint List Name>",                /* The INTERNAL name of the list to be used. */
-    "view": "<A SharePoint view name>",                    /* The view that belongs to the list that you intend to use. */
-    "facilityPath": "<A SharePoint subsite path>",         /* Used to navigate further into the apiHost. */
-    "siteID": "<A SharePoint site ID>"                     /* This is the ID number that SharePoint has assigned to the specific item you are referencing. */
+    "listName": "<A SharePoint List Name>",               
+    "view": "<A SharePoint view name>",                    
+    "facilityPath": "<A SharePoint subsite path>",        
+    "siteID": "<A SharePoint site ID>"                    
 }
 ```
 
@@ -307,7 +307,7 @@ Example:
 This styling is based on Flexbox. The key properties for each container are the `layout`, `panels`,`width` and `flex`.
 *`layout` specifies the layout to use for the panels. If "column" is specified, the panels will be laid out vertically and if "row" is specified the children will be laid out horizontally within the parent container. 
 *`panels` is an array that contains either the panel id of the panel to render, or a nested container object with its own layout and panels. 
-*`flex` specifies the manner in which the container should flex. Optional. The width config will disable the flex config.  Default value is `true`. \
+*`flex` specifies the manner in which the container should flex. Optional. The width config will disable the flex config.  Default value is `true`. 
 More info of flex options at: https://material.angularjs.org/latest/layout/grid
 
 Nested example: 
@@ -319,8 +319,8 @@ Nested example:
             {
                 "layout": "row",
                 "flex": 30,
-                "width":"300px"      // If you include width, that panel width will become static, 'flex' tag will no longer be used. 
-                "hide-sm":"true",    // hide-sm and hide-xs are optional . You can remove them if you don't need. 
+                "width":"300px"      
+                "hide-sm":"true",     
                 "hide-xs":"true","
                 "panels": [
                     "panel2",
