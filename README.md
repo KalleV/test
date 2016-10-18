@@ -133,7 +133,7 @@ Specifying "apiParams":
 With the above configuration, the panel would make a GET request to `http://host:port/<A SharePoint subsite path>/<A SharePoint site ID>/path/5/to/api/<A SharePoint view name>`.
 The `siteID` is used internally to locate a SharePoint site.
 
-A full panel configuration specifying a custom, cross-domain API request:
+######Cross-domain API request
 
 ```JSON
 {
