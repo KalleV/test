@@ -321,7 +321,7 @@ Nested example:
                 "flex": 30,
                 "width":"300px"      
                 "hide-sm":"true",     
-                "hide-xs":"true","
+                "hide-xs":"true",
                 "panels": [
                     "panel2",
                     "panel3",
